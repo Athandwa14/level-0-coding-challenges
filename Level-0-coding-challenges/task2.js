@@ -1,0 +1,15 @@
+// application of BODMAS and printing variables
+x = 1 + 1 * 2;
+console.log(x);
+
+y = (1+1)*2;
+console.log(y);
+
+let z = 1 +(1*2);
+console.log(z);
+
+let a = 1 + 1 * 2 / 2;
+console.log(a);
+
+let b = (1 + 1 * 2) / 2;
+console.log(b); 
