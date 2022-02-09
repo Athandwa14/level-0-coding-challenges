@@ -8,5 +8,5 @@ function maximum(num1,num2,num3){
         max = num3;
     }
     
-  console.log(max);
+  return max;
 }
