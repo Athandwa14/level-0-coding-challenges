@@ -1,12 +1,12 @@
 function removeLastComma(str){
-    let lastIndex = str.lastIndexOf(" ,");               //removing the last comma
+    let lastIndex = str.lastIndexOf(" ,");               // function to remove the last comma
     let noComma = str.substring(0,lastIndex);
     return noComma;
 }
 
 function checkForVowels(text){
     let vowels = " "
-   const checker = ['a','e','i','o','u'];     //checking for vowels in a string 
+   const checker = ['a','e','i','o','u'];     //an array of vowels to compare to a string to get vowell
    for (let char of text.toLowerCase()){
        if (checker.includes(char)){
            if(vowels.includes(char)){

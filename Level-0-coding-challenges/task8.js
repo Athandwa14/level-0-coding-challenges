@@ -3,5 +3,6 @@ function secAndMin(anyNumber){
                   
     let minutes = anyNumber % 60;           // calculating the number of minutes which is a remainer of hours
 
-    console.log(anyNumber + " is " + hours + " hour(s) and " + minutes + " minute(s)");
+    console.log(hours + " hour(s) and " + minutes + " minute(s)");
 }
+
