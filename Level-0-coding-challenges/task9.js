@@ -1,6 +1,6 @@
 function removeLastComma(str){
-    let lastIndex = str.lastIndexOf(" ,");               // function to remove the last comma
-    let noComma = str.substring(0,lastIndex);
+    const lastIndex = str.lastIndexOf(" ,");               // function to remove the last comma
+    const noComma = str.substring(0,lastIndex);
     return noComma;
 }
 
