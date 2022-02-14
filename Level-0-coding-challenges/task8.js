@@ -3,15 +3,21 @@ function secAndMin(anyNumber){
                   
     const minutes = anyNumber % 60;         
 
-    if(hours === 1){
-        console.log(hours + " hour and " + minutes + " minutes");
+    if(hours ===1 && minutes ===1){
+        console.log(hours + " hour and " + minutes + " minute");
+       
+    }else if(hours ===1){
+            console.log(hours + " hour and " + minutes + " minutes");
+
     }else if(minutes === 1){
         console.log(hours + " hours and " + minutes + " minute");
-    }else if(hours ===1 && minutes === 1){
-        console.log(hours + " hour and " + minutes + " minute" )
+    
     }else{
         console.log(hours + " hours and " + minutes + " minutes")
     }
-}
+    
 
+    
+}
+secAndMin(121);
 

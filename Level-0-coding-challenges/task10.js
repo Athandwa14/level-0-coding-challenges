@@ -6,7 +6,7 @@ function removeLastComma(str){
 
 function commonChar(str1,str2){
     let result = " "
-    let str2 = str2.toLowerCase();
+     str2 = str2.toLowerCase();
   for (let char of str1.toLowerCase()){
       if (str2.includes(char)){              
           if (result.includes(char)){
@@ -20,5 +20,5 @@ function commonChar(str1,str2){
           console.log("Common letters:" + removeLastComma(result));  
     }
     
-     
+
  
