@@ -1,9 +1,9 @@
 function celsiusToFahrenheit(celsius){
 
-    const fahrenheit = celsius * (9/5) + 32;       //convecting celsius to fahrenheit
+    const fahrenheit = celsius * (9/5) + 32;       
     return fahrenheit;
 }
 function fahrenheitToCelsius(fahrenheit){
-    const celsius = (fahrenheit- 32) * (5/9);       // convecting fahrenheit to celsius
+    const celsius = (fahrenheit- 32) * (5/9);       
     return celsius;
 }

@@ -1,4 +1,4 @@
-// application of BODMAS and printing variables
+
 x = 1 + 1 * 2;
 console.log(x);
 

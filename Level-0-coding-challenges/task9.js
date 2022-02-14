@@ -6,11 +6,11 @@ function removeLastComma(str){
 
 function checkForVowels(text){
     let vowels = " "
-   const checker = ['a','e','i','o','u'];     //an array of vowels to compare to a string to get vowell
+   const checker = ['a','e','i','o','u'];     
    for (let char of text.toLowerCase()){
        if (checker.includes(char)){
            if(vowels.includes(char)){
-               continue;
+               continue;                       //if the vowel is already in char pass do not repeat
            }else{
            vowels += char + " ,"
            }

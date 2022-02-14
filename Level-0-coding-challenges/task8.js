@@ -1,7 +1,7 @@
 function secAndMin(anyNumber){
-    const hours = Math.floor(anyNumber/60);       // calculating number of hours only without a remainder 
+    const hours = Math.floor(anyNumber/60);         
                   
-    const minutes = anyNumber % 60;           // calculating the number of minutes which is a remainer of hours
+    const minutes = anyNumber % 60;         
 
     if(hours === 1){
         console.log(hours + " hour and " + minutes + " minutes");
